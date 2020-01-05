@@ -5,4 +5,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="itemname">Dummy Name</string>
+    <string name="repo_name">Repo Name</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="repo_link">Repo Link</string>
+    <string name="number_of_stars">Stars</string>
+    <string name="number_of_forks">Forks</string>
+    <string name="number_of_watch">Watch</string>
+    <string name="ui_components_list">UI Components List</string>
 </resources>

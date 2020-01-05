@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
     private static final int POS_SCANNING = 3;
     private static final int POS_BINDING = 4;
     private static final int POS_DEBUGGING = 5;
+    private static final int POS_EASY_NAVIGATION = 6;
+    private static final int POS_RECYCLER_VIEW = 7;
+    private static final int POS_LIST_VIEW = 8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,8 +76,10 @@ public class MainActivity extends AppCompatActivity {
                 createItemFor(POS_IMAGE_PROCESSING),
                 createItemFor(POS_SCANNING),
                 createItemFor(POS_BINDING),
-                new SpaceItem(32),
-                createItemFor(POS_DEBUGGING)));
+                createItemFor(POS_DEBUGGING),
+                createItemFor(POS_EASY_NAVIGATION),
+                createItemFor(POS_RECYCLER_VIEW),
+                createItemFor(POS_LIST_VIEW)));
 
         list.setNestedScrollingEnabled(false);
         list.setLayoutManager(new LinearLayoutManager(this));

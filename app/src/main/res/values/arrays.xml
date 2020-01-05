@@ -8,6 +8,9 @@
         <item>Scanning</item>
         <item>UI Bindings</item>
         <item>Debugging</item>
+        <item>Easy Navigation</item>
+        <item>RecyclerView</item>
+        <item>ListView</item>
     </string-array>
 
     <array name="ld_activityScreenIcons">
@@ -17,6 +20,9 @@
         <item>@drawable/ic_scanning</item>
         <item>@drawable/ic_ui_bindings</item>
         <item>@drawable/ic_debugging</item>
+        <item>@drawable/ic_easy_navigation</item>
+        <item>@drawable/ic_recycler_view</item>
+        <item>@drawable/ic_list_view</item>
     </array>
 
 </resources>
