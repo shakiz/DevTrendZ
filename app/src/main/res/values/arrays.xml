@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>UI Components</item>
+        <item>Drawing</item>
+        <item>Image Processing</item>
+        <item>Scanning</item>
+        <item>UI Bindings</item>
+        <item>Debugging</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_ui_components</item>
+        <item>@drawable/ic_drawing</item>
+        <item>@drawable/ic_image_processing</item>
+        <item>@drawable/ic_scanning</item>
+        <item>@drawable/ic_ui_bindings</item>
+        <item>@drawable/ic_debugging</item>
+    </array>
+
+</resources>
