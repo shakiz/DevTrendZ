@@ -91,12 +91,18 @@ public class FragmentUIComponents extends Fragment {
     }
 
     private void loadRecord() {
-        Library[] library = new Library[]{new Library(R.drawable.ic_ui_components,"","","","",0,0,0)
-        ,new Library(R.drawable.ic_ui_components,"","","","",0,0,0)
-        ,new Library(R.drawable.ic_ui_components,"","","","",0,0,0)
-        ,new Library(R.drawable.ic_ui_components,"","","","",0,0,0)
-        ,new Library(R.drawable.ic_ui_components,"","","","",0,0,0)
-        ,new Library(R.drawable.ic_ui_components,"","","","",0,0,0)};
+        Library[] library = new Library[]{new Library(R.drawable.ic_ui_components,"TourDeKuakata","shakiz","https://github.com/shakiz/TourDeKuakata",
+                "Java",1,0,1)
+        ,new Library(R.drawable.ic_ui_components,"DevTrendZ","shakiz","https://github.com/shakiz/DevTrendZ",
+                "Java",1,1,1)
+        ,new Library(R.drawable.ic_ui_components,"shakil-portfolio","shakiz","https://github.com/shakiz/shakil-portfolio",
+                "Html , CSS",2,13,13)
+        ,new Library(R.drawable.ic_ui_components,"PcBuildHub","shakiz","https://github.com/shakiz/PcBuildHub",
+                "",1,43,42)
+        ,new Library(R.drawable.ic_ui_components,"DataBinding","shakiz","https://github.com/shakiz/DataBinding",
+                "",4,23,234)
+        ,new Library(R.drawable.ic_ui_components,"DailySaver","shakiz","https://github.com/shakiz/DailySaver",
+                "",234,32,423)};
 
         if (library != null) {
             arrayList = new ArrayList<>(Arrays.asList(library));

@@ -36,9 +36,9 @@ public class LibraryListItemAdapter extends RecyclerView.Adapter<LibraryListItem
         holder.RepoName.setText(library.getRepoName());
         holder.RepoOwner.setText(library.getRepoOwner());
         holder.RepoLink.setText(library.getRepoLink());
-        holder.NumberOfStars.setText("Stars :: "+library.getNumberOfStars());
-        holder.NumberOdForks.setText("Forks :: "+library.getNumberOfForks());
-        holder.NumberOfWatch.setText("Watches :: "+library.getNumberOfWatch());
+        holder.NumberOfStars.setText(""+library.getNumberOfStars());
+        holder.NumberOdForks.setText(""+library.getNumberOfForks());
+        holder.NumberOfWatch.setText(""+library.getNumberOfWatch());
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
